@@ -21,7 +21,7 @@ int main() {
     cout << "Enter n: ";
     cin >> n;
     if (n < 0 || n > 30) {
-        cout << "n must be between 0 and 30." << endl;
+        cout << "n" << endl;
         return 1;
     }
     cout << "F(" << n << ") = " << fibonacci(n) << endl;
